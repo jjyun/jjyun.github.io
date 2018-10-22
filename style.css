@@ -1,0 +1,43 @@
+/*
+Piggyback CSS
+ */
+
+/* Styling for HTML elements */
+
+/* Classes */
+.paragraphtext {
+  padding: 0px;
+  padding-top: 20px;
+  padding-left: 0px;
+  font-size: 12px;
+}
+
+.pheader {
+  font-size: 14px;
+  font-style: italic;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.bigheader {
+font-size: 28px;
+}
+
+.smallheader {
+font-size: 24px;
+}
+
+.image {
+  padding: 20px;
+}
+
+.smallimage {
+  padding: 10px;
+}
+
+.copyright {
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  color: white;
+}

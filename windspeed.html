@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+    <title>Latitude vs. Wind Speed</title>
+  </head>
+  <body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+	  <a class="navbar-brand" href="#">Latitude</a>
+		<ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+			<!-- Dropdown -->
+	    	<li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Plots
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="index.html">Max Temperature</a>
+	          <a class="dropdown-item" href="humidity.html">Humidity</a>
+	          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+	          <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+	        </div>
+	      </li>
+
+	      <!-- Other Links -->
+	      <li class="nav-item">
+	        <a class="nav-link" href="comparison.html">Comparison</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="data.html">Data</a>
+	      </li>
+	    </ul>
+	</nav>
+<br>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="jumbotron">
+			  <h1 class="bigheader">Summary: Latitude vs. Wind Speed</h1><hr>
+			  <p class="pheader">Weather Plotting explaining the comparison between Latitude and Wind Speed</p>
+			  <img src="resources\assets\images\Fig4.png" class="img-fluid image" alt="Responsive image" height="275" width="400" align="left">
+			  <p class="paragraphtext">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+			  <p class="paragraphtext">After assembling the dataset, we used Matplotlib to plot various temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="jumbotron">
+			  <h2 class="smallheader">Visualizations</h2><hr><br>
+			  <a href="index.html"><img src="resources\assets\images\Fig1.png" class="img-fluid smallimage" alt="Responsive image" height="100" width="125" align="center"></a>
+			  <a href="humidity.html"><img src="resources\assets\images\Fig2.png" class="img-fluid smallimage" alt="Responsive image" height="100" width="125" align="center"></a>
+			  <br>
+			  <a href="cloudiness.html"><img src="resources\assets\images\Fig3.png" class="img-fluid smallimage" alt="Responsive image" height="100" width="125" align="center"></a>
+			  <a href="windspeed.html"><img src="resources\assets\images\Fig4.png" class="img-fluid smallimage" alt="Responsive image" height="100" width="125" align="center"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+<p class="copyright">Copyright 2018</p>
+</nav>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
