@@ -12,7 +12,7 @@
   </head>
   <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
-	  <a class="navbar-brand" href="#">Latitude</a>
+	  <a class="navbar-brand" href="index.html">Latitude</a>
 		<ul class="nav navbar-nav ml-auto w-100 justify-content-end">
 			<!-- Dropdown -->
 	    	<li class="nav-item dropdown">
@@ -20,7 +20,7 @@
 	          Plots
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          <a class="dropdown-item" href="index.html">Max Temperature</a>
+	          <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
 	          <a class="dropdown-item" href="humidity.html">Humidity</a>
 	          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
 	          <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
@@ -44,14 +44,14 @@
 			  <h1 class="bigheader">Summary: Latitude vs. Cloudiness</h1><hr>
 			  <p class="pheader">Weather Plotting explaining the comparison between Latitude and Cloudiness</p>
 			  <img src="resources\assets\images\Fig3.png" class="img-fluid image" alt="Responsive image" height="275" width="400" align="left">
-			  <p class="paragraphtext">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-			  <p class="paragraphtext">After assembling the dataset, we used Matplotlib to plot various temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+			  <p class="paragraphtext">Charting cloud coverage in relation to the distance from the equator indicated that there is no statistically significant relationship between these two variables. As distance from the equator increases there are no drastic effects on cloud coverage.</p>
+			  <p class="paragraphtext">After assembling the dataset Matplotlib was useds to plot cloud coverage along the y axis and latitude markers along the x axis. Cloud coverage values of the 500 sample cities were charted and no direct relationship could be determined. This indicates that cloud coverage values are not impacted by distance from the equator.</p>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="jumbotron">
 			  <h2 class="smallheader">Visualizations</h2><hr><br>
-			  <a href="index.html"><img src="resources\assets\images\Fig1.png" class="img-fluid smallimage" alt="Responsive image" height="100" width="125" align="center"></a>
+			  <a href="maxtemp.html"><img src="resources\assets\images\Fig1.png" class="img-fluid smallimage" alt="Responsive image" height="100" width="125" align="center"></a>
 			  <a href="humidity.html"><img src="resources\assets\images\Fig2.png" class="img-fluid smallimage" alt="Responsive image" height="100" width="125" align="center"></a>
 			  <br>
 			  <a href="cloudiness.html"><img src="resources\assets\images\Fig3.png" class="img-fluid smallimage" alt="Responsive image" height="100" width="125" align="center"></a>

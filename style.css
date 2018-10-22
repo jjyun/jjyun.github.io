@@ -27,11 +27,21 @@ font-size: 28px;
 font-size: 24px;
 }
 
+.header2 {
+font-size: 14px;
+font-style: italic;
+text-align: left;
+}
+
 .image {
   padding: 20px;
 }
 
 .smallimage {
+  padding: 10px;
+}
+
+.bigimage {
   padding: 10px;
 }
 
